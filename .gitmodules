@@ -1,0 +1,3 @@
+[submodule "MOSS-TTSD"]
+	path = MOSS-TTSD
+	url = https://github.com/OpenMOSS/MOSS-TTSD

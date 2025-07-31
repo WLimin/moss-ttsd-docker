@@ -1,0 +1,9 @@
+*/.git
+*/.github
+*/.gitignore
+*/.gitattributes
+.dockerignore
+results
+data
+*.filelist
+MOSS-TTSD-v0.5
