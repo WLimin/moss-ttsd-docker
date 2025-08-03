@@ -1,0 +1,51 @@
+accelerate>=0.20.0
+beartype
+beautifulsoup4
+debugpy
+einops>=0.7.0
+einx[torch]>=0.2.2
+gradio>=4.0.0
+#grpcio>=1.58.0
+huggingface_hub
+jiwer
+librosa>=0.10.1
+liger_kernel
+#lightning>=2.1.0
+lion_pytorch
+#loguru>=0.6.0
+#loralib>=0.1.2
+matplotlib
+mir_eval
+numpy>=1.21.0
+onnxscript
+openai
+orjson
+pesq
+pyaudio
+pydantic==2.9.2 ## NOTE: pydantic 不要升到 2.11 会报错！
+pydub
+PyPDF2
+PyYAML
+requests
+s3prl
+scipy
+soundfile>=0.12.1
+stopes
+tensorboard
+tensorboardX
+uvicorn>=0.30.0
+vector_quantize_pytorch>=1.14.24
+torch-tb-profiler
+peft
+
+### PyTorch Dependencies (using custom source for CUDA)
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.7.1+cu128
+torchaudio==2.7.1+cu128
+torchvision
+tqdm==4.66.5
+transformers==4.53.2
+
+# flash-attn    # Need to install separately
+bitsandbytes
+optimum
