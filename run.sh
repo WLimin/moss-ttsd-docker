@@ -23,7 +23,7 @@ else
     fi
 
     if [ $NV_GPU -eq 1 ]; then #有gpu支持
-      DEVICE_RUN=" --gpus all"
+      DEVICE_RUN=" --gpus all -e PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True "
     else
       DEVICE_RUN=" -e CUDA_ENABLED=false "
     fi
